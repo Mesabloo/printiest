@@ -1,8 +1,8 @@
-import Std.Data.DList
+import Batteries.Data.DList
 import Printiest.Util
 import Printiest.Measure
 
-open Std (DList)
+open Batteries (DList)
 open Spaces Side
 
 /-

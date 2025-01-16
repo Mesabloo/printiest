@@ -10,4 +10,4 @@ lean_lib Printiest {
   -- add library configuration options here
 }
 
-require std from git "https://github.com/leanprover/std4" @ "main"
+require batteries from git "https://github.com/leanprover-community/batteries" @ s!"v{Lean.versionString}"

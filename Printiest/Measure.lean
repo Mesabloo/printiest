@@ -1,7 +1,7 @@
-import Std.Data.DList
+import Batteries.Data.DList
 import Printiest.Util
 
-open Std (DList)
+open Batteries (DList)
 
 /-
 Note: all of the comparisons (equality, LE, etc) use ONLY the
